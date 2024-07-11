@@ -16,3 +16,4 @@ import Cl_Empresa from "./Cl_Empresa";
 import Cl_Personal from "./Cl_Personal";
 
 const empresa = new Cl_Empresa();
+let personal1  

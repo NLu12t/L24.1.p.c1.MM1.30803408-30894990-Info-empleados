@@ -15,4 +15,11 @@ export default class Cl_Empresa {
             this.acumAdmin += p.gana;
         }       
     }
+    //metodos de calculo
+    calcPromedioObrero(){
+       return this.acumObreros / this.contObreros ;
+    }
+    calcPromedioObrero(){
+        return this.acumAdmin / this.contAdmin;
+    }
 }
